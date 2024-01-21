@@ -1,0 +1,331 @@
+#logo img{
+    width: 160px; 
+    height: auto;
+
+}
+#li{
+    display: inline;
+    color: white;
+    font-size: 19px;
+    margin-left: 15px;
+}
+nav ul{
+    margin-right: 5px;
+}
+#li:hover{
+    background-color: grey;
+    cursor: pointer;
+padding: 15px;
+    font-size: 130%;
+}
+#side{
+    background-color:black;
+    width:30%;
+    margin-left:70%;
+    z-index:1;
+    list-style: none;
+    display:none;
+}
+#side ul{
+    list-style: none;
+    text-align: center;
+}
+#side li{
+    margin:2%;
+}
+#side ul button{
+        margin-left:60%;
+        cursor: pointer;
+}
+#side ul button:hover{
+    color:white;
+    background-color: grey;
+    height:20px;
+    
+}
+#side ul #ltop{
+    font-weight: 300;
+    font-size: 130%;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+  vertical-align: middle;
+    background-color: black;
+   border-radius: 10px;
+   margin-top: 10px;
+
+    }
+   .topmost{
+    height: 600px;
+    
+    color: white;
+    border-radius: 20px;
+    text-align: left;
+    justify-content: center;
+
+   }
+   #h1{
+    font-size: 45px;
+    text-align: justify;
+    padding-left: 20px;
+    margin-top: 220px;
+   }
+   #btn1{
+    background-color: black;
+    color: white;
+    margin-left: 20px;
+    border-radius: 25px;
+    font-size: 20px;
+    height: 80px;
+    width: 200px;
+    
+   }
+
+   .div2{
+    text-align: center;
+   }
+   #ourstory{
+    font-size: 45px;
+   }
+   .container {
+            display: flex;
+            justify-content: center; 
+        }
+
+        .paragraph {
+            width: 200%;
+            padding: 20px;
+        text-align: left;
+    }
+    #btn2{
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        height: 45px;
+        width: 250px;
+    }
+
+
+
+    .polaroid a {
+       
+       display: inline-block;
+       
+       text-align: center;
+       text-decoration: none;
+      
+       box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+       -webkit-transition: all .20s linear;
+       -moz-transition: all .20s linear;
+       transition: all .20s linear;
+       z-index: 0;
+       position: relative;
+       margin-left: 30px;
+       margin-right: 30px;
+     } 
+     
+     .polaroid img {
+       display: block;
+       width: 330px;
+       height: 300px;
+     }
+     .polaroid a:hover {
+       -webkit-transform: scale(1.2);
+       -moz-transform: scale(1.2);
+       transform: scale(1.2);
+       z-index: 10;
+       -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+       -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+       box-shadow: 0 10px 20px rgba(0, 0, 0, .7);}
+
+
+      #btn3{
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        height: 45px;
+        width: 250px;
+      }
+
+      #div5{
+        background: rgb(138,135,138);
+background: radial-gradient(circle, rgba(138,135,138,1) 0%, rgba(15,15,15,1) 100%);
+height: 500px;
+display: flex;
+        align-items: center;
+        color: white;
+        text-align: left;
+
+      }
+
+    
+
+    #div5 img {
+        margin-right: 20px; 
+        margin-left: 20px;
+    }
+    #foot{
+        background-color: black;
+        height: 700px;
+        color: white;
+    }
+
+    #div5 > div {
+        flex: 1;}
+        
+
+        #showcase{
+            font-size: 26px;
+        }
+        #soldpp{
+            font-size: 55px;
+        }
+        #btn4{
+            background-color: white;
+            color: black;
+            height: 40px;
+            width: 200px;
+            border-radius: 3px;
+             font-size: 20px;
+             margin-left: 20px;
+        }
+        #btn5{
+            background-color: white;
+            color: black;
+            height: 40px;
+            width: 220px;
+            border-radius: 3px;
+             font-size: 20px;
+             margin-left: 30px;
+        }
+        #Subscribefoot{
+         padding: 50px;
+            margin-top: 48px;
+            text-align: left;
+            font-size: 30px;
+        }
+        #siteLinks{
+           padding-bottom: 20px;
+
+        }
+
+
+
+
+
+        footer {
+            background-color: #333;
+            color: white; 
+            
+        }
+
+        #foot1 {
+            text-align: left;
+            display: flex;
+            align-items: left;
+            padding-top:20px; 
+        }
+        #foot1 img{
+                margin-left:20%;
+        }
+        #fbtn{
+            margin-right: 32%;
+        }
+        #fbtn input{
+            background-color: black;
+            border: 2px solid white;
+            height: 45px;
+            width: 250px;
+            
+            margin-top: 30px;
+
+        }
+        #fbtn button{
+            background-color:white;
+            color: black;
+            border: 2px solid white;
+            height: 45px;
+            width: 250px;
+            
+        }
+        #Subscribefoot {
+            flex: 1;
+            text-align: left;
+        }
+
+        #mailid, #btn6 {
+            margin: 10px;
+        }
+
+        hr {
+            border: 1px solid white;
+            width: 100%;
+        }
+
+        #contactInfo {
+            flex: 1;
+            margin: 10px;
+            text-align: left;
+            margin-left: 80px;
+        }
+        #socialMedia{
+           margin-right: 25%;
+        }
+        #socialMedia li{
+            margin-top: 10%;
+        }
+#col{
+    display: flex;
+}
+        #siteLinks ul {
+            list-style: none;
+            padding: 0;
+        }
+        .fhead{
+            font-size: 120%;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 200;
+        }
+        #footerImage {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        #footerImage img {
+            max-width: 100%;
+            height: auto;
+        }
+
+
+
+
+
+        #topmost {
+            position: relative;
+            height: 10px;
+            overflow: hidden;
+        }
+
+        #video-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        
+        #video-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: -1;
+        }
